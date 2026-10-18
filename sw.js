@@ -1,13 +1,13 @@
 /* Cache only this app's static shell. Never cache Google API requests. */
 const APP_PREFIX = 'super-opr-' + self.registration.scope;
-const CACHE_NAME = APP_PREFIX + 'mario-v3-sktd3-20261018';
+const CACHE_NAME = APP_PREFIX + 'mario-v4-sktd3-csv-pixel';
 const FILES = [
   './', './index.html', './offline.html', './pwa.js', './bulk-opr.js', './game-audio.js', './mario-edition.css', './manifest.webmanifest',
   './assets/tailwind.js', './assets/fonts.css', './assets/fontawesome.css',
   './assets/font-0.ttf', './assets/font-1.ttf', './assets/font-2.ttf', './assets/font-3.ttf',
   './assets/webfonts/fa-solid-900.woff2', './assets/webfonts/fa-regular-400.woff2', './assets/webfonts/fa-brands-400.woff2',
   './assets/header-mario-opr.png', './assets/lencana-sekolah.png', './assets/lencana-pixel.png',
-  './icons/icon-192.png', './icons/icon-512.png', './icons/icon-maskable-512.png', './icons/apple-touch-icon.png'
+  './icons/icon-pixel-192.png', './icons/icon-pixel-512.png', './icons/icon-pixel-maskable-512.png', './icons/apple-touch-icon-pixel.png'
 ];
 const STATIC_URLS = new Set(FILES.map(path => new URL(path, self.registration.scope).href));
 self.addEventListener('install', event => {

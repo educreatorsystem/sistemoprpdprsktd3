@@ -11,7 +11,7 @@
   .header-toolbar {display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;width:100%;}
   .header-school {position:static!important;max-width:100%!important;width:auto!important;display:flex;align-items:center;gap:12px;padding:0!important;background:none!important;border:0!important;backdrop-filter:none!important;}
   .header-school>div {min-width:0;}
-  .header-school-logo {width:64px!important;height:64px!important;object-fit:contain;border:2px solid #fcd116;border-radius:14px;padding:0;background:#5c94fc;image-rendering:auto;}
+  .header-school-logo {width:64px!important;height:64px!important;object-fit:contain;border:2px solid #fcd116;border-radius:14px;padding:0;background:#5c94fc;image-rendering:pixelated;}
   .header-school-name {font-size:clamp(13px,1.5vw,19px)!important;line-height:1.4;letter-spacing:.01em;color:#fff;text-shadow:none!important;}
   .header-school-subtitle {font-size:12px!important;color:#cce9ff;line-height:1.5;margin-top:3px;}
   .hero-actions {display:flex;align-items:center;flex-wrap:wrap;gap:8px;}

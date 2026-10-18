@@ -1,7 +1,7 @@
 {
   "id": "./",
   "name": "Super OPR SK Taman Daya 3 — Mario Edition",
-  "short_name": "Super OPR",
+  "short_name": "OPR SKTD3",
   "description": "Penjana OPR PdPR dan PdPC SK Taman Daya 3 dalam tema Mario Edition.",
   "lang": "ms-MY",
   "start_url": "./",
@@ -10,8 +10,8 @@
   "background_color": "#5C94FC",
   "theme_color": "#E52521",
   "icons": [
-    {"src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
-    {"src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
-    {"src": "./icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+    {"src": "./icons/icon-pixel-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "./icons/icon-pixel-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "./icons/icon-pixel-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
   ]
 }

@@ -22,8 +22,8 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="apple-mobile-web-app-title" content="Super OPR">
     <link rel="manifest" href="./manifest.webmanifest">
-    <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-pixel-192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon-pixel.png">
 
 
 
@@ -845,7 +845,7 @@
 
         // Web App Configurations & Data Endpoints
 
-        const TEACHERS_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQiP59NmpIynQb8qEOi5TILy6ewF9fRJw2ofT__72bGGUskxEkoZUqYQPIUuabtQqD8F7M17jqKZnVd/pub?gid=0&single=true&output=csv";
+        const TEACHERS_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQNNSWWEdBIgNHR7hpqveLwZNwx4UPc-Jner4n_YrtYdXbNVARaKY4tgpgPVlgcBhrlHNoJ81hAmxYa/pub?gid=0&single=true&output=csv";
 
         const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxywDNRpUgRKatrSPAAPPxICTSVbpQcsQznHBNjg-etH2Ok6_4hDAd1cuwiutUUYBIF_g/exec";
 
@@ -1388,8 +1388,8 @@
 const SCHOOL_LOGO = "./assets/lencana-sekolah.png";
 document.querySelectorAll("[data-school-logo]").forEach(img => { img.src = SCHOOL_LOGO; img.onerror = () => { img.onerror = null; img.src = "assets/lencana-sekolah.png"; }; });
 document.querySelectorAll("[data-pixel-logo]").forEach(img => { img.src = "./assets/lencana-pixel.png"; });
-const SUBJECTS_CSV_URL = TEACHERS_CSV_URL.replace('gid=0&', 'gid=978586063&');
-const CLASSES_CSV_URL = TEACHERS_CSV_URL.replace('gid=0&', 'gid=1134179243&');
+const SUBJECTS_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQNNSWWEdBIgNHR7hpqveLwZNwx4UPc-Jner4n_YrtYdXbNVARaKY4tgpgPVlgcBhrlHNoJ81hAmxYa/pub?gid=978586063&single=true&output=csv";
+const CLASSES_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQNNSWWEdBIgNHR7hpqveLwZNwx4UPc-Jner4n_YrtYdXbNVARaKY4tgpgPVlgcBhrlHNoJ81hAmxYa/pub?gid=1134179243&single=true&output=csv";
 function parseCSV(text) {
     const rows = []; let row = [], cell = '', quoted = false;
     text = text.replace(/^\uFEFF/, '');
